@@ -9,4 +9,4 @@ Plus d'informations sur le Pilote: https://heatzy.com/pilote
 ## Installation
 
 Créer un switch de type "selector":
-![switch Heatzy Pilote](https://github.com/lordgun/domoticz-heatzy/blob/main/doc/domoticz-heatzy-switch-pilote.png?raw=true)
+![switch Heatzy Pilote](./doc/domoticz-heatzy-switch-pilote.png?raw=true)
