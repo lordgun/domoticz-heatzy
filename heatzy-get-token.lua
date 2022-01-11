@@ -1,7 +1,7 @@
 
 -- décommentez la ligne correspondant à votre plateforme et commentez les autres
 -- éventuellement, modifiez le chemin du fichier JSON.lua
-json = (loadfile "/home/lordgun/domoticz/scripts/lua/JSON.lua")()  		-- (GNU/linux)
+json = (loadfile "/home/__YOURUSERNAME__/domoticz/scripts/lua/JSON.lua")()  		-- (GNU/linux)
 --   json = (loadfile "/home/pi/domoticz/scripts/lua/JSON.lua")()  		-- (Raspberry Pi)
 --   json = (loadfile "D:\\Domoticz\\scripts\\lua\\json.lua")()    		-- (Windows)
 --   json = (loadfile "/volume1/@appstore/domoticz/var/scripts/lua/json.lua")() -- (Synology)
