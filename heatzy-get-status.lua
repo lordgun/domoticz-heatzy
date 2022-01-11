@@ -1,4 +1,4 @@
-json = (loadfile "/home/lordgun/domoticz/scripts/lua/JSON.lua")()  -- For Linux enlever les -- devant la ligne qui vous interesse et mettre -- devant la ligne a commenter
+json = (loadfile "/home/YOURUSERNAME/domoticz/scripts/lua/JSON.lua")()  -- For Linux enlever les -- devant la ligne qui vous interesse et mettre -- devant la ligne a commenter
 --   json = (loadfile "/home/pi/domoticz/scripts/lua/JSON.lua")()  -- For raspberry enlever les -- devant la ligne qui vous interesse et mettre -- devant la ligne a commenter
 --   json = (loadfile "D:\\Domoticz\\scripts\\lua\\json.lua")()  -- For Windows enlever les -- devant la ligne qui vous interesse et mettre -- devant la ligne a commenter
 --   json = (loadfile "/volume1/@appstore/domoticz/var/scripts/lua/json.lua")()  -- For Syno enlever les -- devant la ligne qui vous interesse et mettre -- devant la ligne a commenter
