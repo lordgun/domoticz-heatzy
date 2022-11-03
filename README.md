@@ -2,11 +2,12 @@
 
 Scripts domoticz pour contrôler un module Heatzy Pilote
 
-- Basé sur http://domo-attitude.fr/pilotez-vos-modules-heatzy-domoticz/
 - Plus d'informations sur le Pilote: https://heatzy.com/pilote
 - Documentation des API: https://heatzy.com/blog/heatzy-openapi
 
 ## Installation
+
+* Création d'une variable utilisateur ex: "heatzytoken"
 
 * Créer un switch de type "selector" pour gérer l'état du radiateur:
 
