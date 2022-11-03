@@ -7,9 +7,20 @@ Scripts domoticz pour contrôler un module Heatzy Pilote
 
 ## Installation
 
-* Création d'une variable utilisateur ex: "heatzytoken"
+* Création d'une variable utilisateur de type chaîne ex: "heatzytoken"
 
-* Créer un switch de type "selector" pour gérer l'état du radiateur:
+![Screenshot 2022-11-03 at 22-11-37 Domoticz](https://user-images.githubusercontent.com/61914395/199837156-c5fd111e-3a0e-4bbc-a760-8eb9b7b48ba4.png)
+
+* Créer un switch de type "selector" en mode "on/off" pour gérer la demande de token:
+
+![switch Heatzy Pilote](./doc/domoticz-heatzy-switch-token.png?raw=true)
+
+  Détail de paramétrage:
+ en respectant bien le nom "Get Heatzy Token"
+ 
+![switch Heatzy Pilote détails](./doc/domoticz-heatzy-switch-token-detail.png?raw=true)
+
+* Créer un switch de type "selector" pour gérer l'état de chaque radiateur:
 
 ![switch Heatzy Pilote](./doc/domoticz-heatzy-switch-pilote.png?raw=true)
 
@@ -17,10 +28,12 @@ Détail de paramétrage:
 
 ![switch Heatzy Pilote détails](./doc/domoticz-heatzy-switch-pilote-detail.png?raw=true)
 
-* Créer un switch de type "selector" en mode "on/off" pour gérer la demande de token:
+* Création des fichiers LUA pour connaitre le status du/des radiateur(s) dans les "Configuration/Plus d'options/Evènements"
 
-![switch Heatzy Pilote](./doc/domoticz-heatzy-switch-token.png?raw=true)
+https://github.com/lordgun/domoticz-heatzy/blob/main/heatzy-get-status.lua
 
-Détail de paramétrage:
+* Création des fichiers LUA pour contrôler le "selector"
 
-![switch Heatzy Pilote détails](./doc/domoticz-heatzy-switch-token-detail.png?raw=true)
+https://github.com/lordgun/domoticz-heatzy/blob/main/heatzy-control.lua
+
+
